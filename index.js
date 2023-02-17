@@ -30,11 +30,13 @@ const questions = () => {
             type: 'input',
             name: 'install',
             message: 'Explain how users should install this project',
+            default: 'NPM init',
         },
         {
             type: 'input',
             name: 'usage',
             message: 'Explain how users can use your project',
+            default: 'NPM install',
         },
         {
             type: 'checkbox',
@@ -51,6 +53,7 @@ const questions = () => {
             type: 'input',
             name: 'test',
             message: 'Please add test instructions',
+            default: 'NPM test',
         },
 
     ])
@@ -60,7 +63,7 @@ const questions = () => {
 function init() {
     questions().then((data) => {
         fs.writeFile('GENERATEDREADME.md', generateMarkdown(data), (err) =>
-        err ? console.log(err) : console.log('README has been successfully generated!'));
+        err ? console.log(err) : console.log('Your Generated README has been successfully generated!'));
     })
 
 }

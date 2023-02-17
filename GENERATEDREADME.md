@@ -1,32 +1,36 @@
 
-  # natatat
+  # nat
 
   ## Description
-  natnattatat
+  nat
 
   ## Table of Contents
   * [Install](#installation)
   * [Usage](#usage)
-  * [License](#license)
+  * [Licence](#licence)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
 
   ## Installation
-  atatt
+      nat
 
   ## Usage
-  aef
+  You can run this application by running `nat`
 
   ## Licence
-  MIT
+  MIT,Apache,Creative Commons,GNU
 
   ## Contributing
-  are
+  nat
 
   ## Tests
-  fdsff
+
+  To run tests, run the following command:
+  ```
+  nat
+  ```
 
   ## Questions
-  If you have any questions regarding this project, please contact nat
-  You can also email me at natat
+  If you have any questions regarding this project, please email me at nat
+  You can find my other projects at [nat](https://github.com/nat).
