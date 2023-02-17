@@ -6,59 +6,55 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // array of questions for user
 const questions = () => {
     return inquirer.prompt([
-        // {
-        //     type: 'input',
-        //     name: 'username',
-        //     message: 'Enter your Github username',
-        // },
-        // {
-        //     type: 'input',
-        //     name: 'email',
-        //     message: 'Enter your email address',
-        // },
+        {
+            type: 'input',
+            name: 'username',
+            message: 'Enter your Github username',
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Enter your email address',
+        },
         {
             type: 'input',
             name: 'title',
             message: 'Enter the title of your project',
         },
-        // {
-        //     type: 'input',
-        //     name: 'desc',
-        //     message: 'Write a short description of your project',
-        // },
-        // {
-        //     type: 'input',
-        //     name: 'install',
-        //     message: 'Explain how users should install this project',
-        // },
-        // {
-        //     type: 'input',
-        //     name: 'usage',
-        //     message: 'Explain how users can use your project',
-        // },
-        // {
-        //     type: 'checkbox',
-        //     name: 'licence',
-        //     message: 'Choose your licence type',
-        //     choices: ['MIT', 'Apache', 'Creative Commons', 'GNU'],
-        // },
-        // {
-        //     type: 'input',
-        //     name: 'contributions',
-        //     message: 'Please add contributors to the project',
-        // },
-        // {
-        //     type: 'input',
-        //     name: 'test',
-        //     message: 'Please add test instructions',
-        // },
+        {
+            type: 'input',
+            name: 'desc',
+            message: 'Write a short description of your project',
+        },
+        {
+            type: 'input',
+            name: 'install',
+            message: 'Explain how users should install this project',
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'Explain how users can use your project',
+        },
+        {
+            type: 'checkbox',
+            name: 'licence',
+            message: 'Choose your licence type',
+            choices: ['MIT', 'Apache', 'Creative Commons', 'GNU'],
+        },
+        {
+            type: 'input',
+            name: 'contributions',
+            message: 'Please add contributors to the project',
+        },
+        {
+            type: 'input',
+            name: 'test',
+            message: 'Please add test instructions',
+        },
 
     ])
 };
-
-// // function to write README file
-// function writeToFile() {
-// }
 
 // function to initialize program
 function init() {
