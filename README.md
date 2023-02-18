@@ -65,7 +65,7 @@ npm test
 ```
 
 ## Video
-[Here](https://link.com) is a walkthrough video of the process
+[Here](https://drive.google.com/file/d/1Fku9YmGuYt_LIIl4n_dsuga4M-NIaAon/view) is a walkthrough video of the process
 
 ## Links
 You can find the corresponding Github repo [here](https://github.com/nattytatat/readme-generator)
