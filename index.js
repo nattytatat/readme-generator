@@ -66,7 +66,7 @@ function init() {
 
         const addMarkdown = generateMarkdown(data);
 
-        fs.writeFile('GENERATEDREADME.md', addMarkdown, (err) =>
+        fs.writeFile('./dist/GENERATEDREADME.md', addMarkdown, (err) =>
         err ? console.log(err) : console.log('Your Generated README has been successfully generated!'));
     })
 

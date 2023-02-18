@@ -1,42 +1,58 @@
-# Taking over the world
-​
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-​
-## Description
-​
-I will use this code to give taking over the world a go.
-​
+# README Generator
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents 
-​
+* [Description](#description​)
+
+* [Screenshot](#screenshot)
+
 * [Installation](#installation)
+
+* [License](#license)
 ​
 * [Usage](#usage)
 ​
-* [License](#license)
-​
-* [Contributing](#contributing-here-is-a-header)
-​
+* [Contributing](#contributing)
+
 * [Tests](#tests)
-​
-* [Questions](#questions)
+
+* [Video](#video)
+
+* [Links](#links)
+
+## Description​
+
+A simple application using Node.js, that generates a professional looking readme file using the command line.
+
+The user is able to cycle through a selection of questions, that upon completion writes a .md file named 'GENERATEDREADME' to the dist folder.
+
+This application uses the File System to access the command line and write the new file. The inquirer package is added for user input functionality to run the questions through the prompt.
+
+Create your professional README file from scratch the **_easy way_**!
+
+## Screenshot
+
+![README Screenshot](./assets/generating.PNG)
 ​
 ## Installation
 ​
-To install necessary dependencies, run the following command:
+To install the necessary dependencies, run the following command:
 ​
 ```
 npm install
 ```
-​
+
 ## Usage
 ​
-You can use this applicaiton by running `node index.js`.
+To start the generation process, type `node index.js`.
 ​
 ## License
-​
-This project is licensed under the MIT license.
+
+
+This project is licensed under the MIT License
+
     
-## Contributing Here Is A Header
+## Contributing
 ​
 Fork and pull request.
 ​
@@ -47,7 +63,10 @@ To run tests, run the following command:
 ```
 npm test
 ```
-​
-## Questions
-​
-If you have any questions about the repo, open an issue or contact me directly at dmueller@2u.com. You can find more of my work at [dmueller2u](https://github.com/dmueller2u/).
+
+## Video
+[Here](https://link.com) is a walkthrough video of the process
+
+## Links
+This Github Repo can be found [here](https://github.com/nattytatat/readme-generator)
+
