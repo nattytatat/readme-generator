@@ -68,5 +68,5 @@ npm test
 [Here](https://link.com) is a walkthrough video of the process
 
 ## Links
-This Github Repo can be found [here](https://github.com/nattytatat/readme-generator)
+You can find the corresponding Github repo [here](https://github.com/nattytatat/readme-generator)
 
