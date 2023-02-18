@@ -1,7 +1,7 @@
 
   # n
 
-  undefined
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
   n
@@ -9,7 +9,7 @@
   ## Table of Contents
   * [Install](#installation)
   * [Usage](#usage)
-  * [Licence](#licence)
+  * [license](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -20,8 +20,8 @@
   ## Usage
   You can run this application by running `n`.
 
-  ## Licence
-  MIT
+  ## license
+  This project is licensed under the MIT license.
 
   ## Contributing
   n

@@ -40,8 +40,8 @@ const questions = () => {
         },
         {
             type: 'checkbox',
-            name: 'licence',
-            message: 'Choose your licence type',
+            name: 'license',
+            message: 'Choose your license type',
             choices: ['MIT', 'Apache', 'Creative Commons', 'GNU'],
         },
         {
@@ -59,10 +59,14 @@ const questions = () => {
     ])
 };
 
+
 // function to initialize program
 function init() {
     questions().then((data) => {
-        fs.writeFile('GENERATEDREADME.md', generateMarkdown(data), (err) =>
+
+        const addMarkdown = generateMarkdown(data);
+
+        fs.writeFile('GENERATEDREADME.md', addMarkdown, (err) =>
         err ? console.log(err) : console.log('Your Generated README has been successfully generated!'));
     })
 
