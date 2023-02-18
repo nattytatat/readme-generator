@@ -1,10 +1,10 @@
 
   # n
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  You have selected no licences
 
   ## Description
-  n
+  nn
 
   ## Table of Contents
   * [Install](#installation)
@@ -21,10 +21,10 @@
   You can run this application by running `n`.
 
   ## license
-  This project is licensed under the MIT license.
+  This project is licensed under the None license.
 
   ## Contributing
-  nat
+  non
 
   ## Tests
 

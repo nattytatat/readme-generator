@@ -23,28 +23,68 @@ const questions = () => {
             type: 'input',
             name: 'email',
             message: 'Enter your email address',
+            validate: function (input) {
+                if (input) {
+                    return true;
+                } else {
+                    console.log('This field cannot be left blank')
+                    return false;
+                }
+            },
         },
         {
             type: 'input',
             name: 'title',
             message: 'Enter the title of your project',
+            validate: function (input) {
+                if (input) {
+                    return true;
+                } else {
+                    console.log('This field cannot be left blank')
+                    return false;
+                }
+            },
         },
         {
             type: 'input',
             name: 'desc',
             message: 'Write a short description of your project',
+            validate: function (input) {
+                if (input) {
+                    return true;
+                } else {
+                    console.log('This field cannot be left blank')
+                    return false;
+                }
+            },
         },
         {
             type: 'input',
             name: 'install',
             message: 'Explain how users should install this project',
             default: 'NPM init',
+            validate: function (input) {
+                if (input) {
+                    return true;
+                } else {
+                    console.log('This field cannot be left blank')
+                    return false;
+                }
+            },
         },
         {
             type: 'input',
             name: 'usage',
             message: 'Explain how users can use your project',
             default: 'NPM install',
+            validate: function (input) {
+                if (input) {
+                    return true;
+                } else {
+                    console.log('This field cannot be left blank')
+                    return false;
+                }
+            },
         },
         {
             type: 'rawlist',
@@ -56,12 +96,28 @@ const questions = () => {
             type: 'input',
             name: 'contributions',
             message: 'Please add contributors to the project',
+            validate: function (input) {
+                if (input) {
+                    return true;
+                } else {
+                    console.log('This field cannot be left blank')
+                    return false;
+                }
+            },
         },
         {
             type: 'input',
             name: 'test',
             message: 'Please add test instructions',
             default: 'NPM test',
+            validate: function (input) {
+                if (input) {
+                    return true;
+                } else {
+                    console.log('This field cannot be left blank')
+                    return false;
+                }
+            },
         },
 
     ])
