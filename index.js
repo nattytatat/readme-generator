@@ -10,6 +10,14 @@ const questions = () => {
             type: 'input',
             name: 'username',
             message: 'Enter your Github username',
+            validate: function (input) {
+                if (input) {
+                    return true;
+                } else {
+                    console.log('This field cannot be left blank')
+                    return false;
+                }
+            },
         },
         {
             type: 'input',
@@ -39,7 +47,7 @@ const questions = () => {
             default: 'NPM install',
         },
         {
-            type: 'checkbox',
+            type: 'rawlist',
             name: 'license',
             message: 'Choose your license type',
             choices: ['MIT', 'Apache', 'Creative Commons', 'GNU'],
@@ -67,7 +75,7 @@ function init() {
         const addMarkdown = generateMarkdown(data);
 
         fs.writeFile('./dist/GENERATEDREADME.md', addMarkdown, (err) =>
-        err ? console.log(err) : console.log('Your Generated README has been successfully generated!'));
+            err ? console.log(err) : console.log('Your Generated README has been successfully generated!'));
     })
 
 }
