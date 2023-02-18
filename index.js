@@ -62,7 +62,7 @@ const questions = () => {
             type: 'input',
             name: 'install',
             message: 'Explain how users should install this project',
-            default: 'NPM init',
+            default: 'NPM install',
             validate: function (input) {
                 if (input) {
                     return true;
@@ -76,7 +76,7 @@ const questions = () => {
             type: 'input',
             name: 'usage',
             message: 'Explain how users can use your project',
-            default: 'NPM install',
+            default: 'Node index.js',
             validate: function (input) {
                 if (input) {
                     return true;
@@ -90,12 +90,12 @@ const questions = () => {
             type: 'rawlist',
             name: 'license',
             message: 'Choose your license type',
-            choices: ['MIT', 'Apache', 'Creative Commons', 'GNU'],
+            choices: ['MIT', 'Creative Commons', 'Apache', 'GNU'],
         },
         {
             type: 'input',
             name: 'contributions',
-            message: 'Please add contributors to the project',
+            message: 'Please add information for contributing to the project',
             validate: function (input) {
                 if (input) {
                     return true;
